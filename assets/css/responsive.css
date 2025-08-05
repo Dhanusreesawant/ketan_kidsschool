@@ -1,0 +1,38 @@
+@media only screen and (max-width: 767px) {
+  .ptb-100 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .pt-100 {
+    padding-top: 50px;
+  }
+  .pb-70 {
+    padding-bottom: 20px;
+  }
+  .pb-100 {
+    padding-bottom: 50px;
+  }
+  .btn-top {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+  .btn-bottom {
+    padding: 10px 25px;
+    font-size: 15px;
+  }
+  .section-title span {
+    font-size: 18px;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+   .choose-image .choose-image-shape .shape-1 {
+    display: none;
+  }
+  .choose-image .choose-image-shape .shape-2 {
+    display: none;
+  }
+  .choose-image .choose-image-shape .shape-3 {
+    display: none;
+  }
+}

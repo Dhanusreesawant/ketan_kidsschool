@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ketan - Childcare & Kids School HTML Template</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <link rel="script" href="/assets/js/script.js">
+   <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/logo.png" alt="logo" class="img-fluid">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRightnav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0"> 
+          <li class="nav-item dropdown">
+            <a class="nav-link padding-left-2" href="/index.html">Home &nbsp;&nbsp; </a>
+           
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Pages <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/about-us.html">About</a></li>
+              <li><a class="dropdown-item" href="/gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="/how-to-apply.html">How To Apply</a></li>
+              <li><a class="dropdown-item" href="/pricing.html">Pricing</a></li>
+              <li><a class="dropdown-item" href="/enroll.html">Enroll</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Teacher <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/teacher.html">Teacher</a></li>
+              <li><a class="dropdown-item" href="/teacher-details.html">Teacher Details</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Event <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/event.html">Event</a></li>
+              <li><a class="dropdown-item" href="/event-details.html">Event Details</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              class <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/class.html">Class</a></li>
+              <li><a class="dropdown-item" href="/class-details.html">Class Details</a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+              Blog <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="/blog-details.html">Blog Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/contact.html">
+              Contact
+            </a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <button class="btn btn-top">
+            <a href="/contact.html">Contact Us</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRightnav" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <img src="./assets/img/logo.png" alt="" class="img-fluid w-50">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Home
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul class="list-group list-inline">
+                <li><a href="#" class="text-black">Home Page</a></li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Pages
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul class="list-group list-inline">
+                <li><a href="/about-us.html" class="text-black">About</a></li>
+                <li><a href="/gallery.html">Gallery</a></li>
+                <li><a href="/how-to-apply.html">How To Apply</a></li>
+                <li><a href="/pricing.html">Pricing</a></li>
+                <li><a href="/enroll.html">Enroll</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Teacher
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul class="list-group list-inline">
+                <li><a href="/teacher.html" class="text-black">Teacher</a></li>
+                <li><a href="/teacher-details.html">Teacher Details</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+              Class
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul class="list-group list-inline">
+                <li><a href="/class.html" class="text-black">Class</a></li>
+                <li><a href="/class-details.html">Class Details</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+              Event
+            </button>
+          </h2>
+          <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul class="list-group list-inline">
+                <li><a href="/event.html" class="text-black">Event</a></li>
+                <li><a href="/event-details.html">Event Details</a></li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+              Blog
+            </button>
+          </h2>
+          <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <ul class="list-group list-inline">
+                <li><a href="/blog.html" class="text-black">Blog</a></li>
+                <li><a href="/blog-details.html">Blog Details</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-3 align-items-center">
+          <button class="btn btn-top">
+            <a href="/contact.html">Contact Us</a>
+          </button>
+        </div>
+
+    </div>
+  </div>
+
+ <section class="about-banner item-bg4">
+    <div class="container">
+        <div class="about-content">
+        <h2>Class</h2>
+        <div class="about-list">
+            <ul>
+                <li><a class="text-white" href="index.html">Home</a></li>
+                <li>Class</li>                
+            </ul>
+        </div>
+        </div>
+    </div>
+  </section>
+
+
+    <section class="class-area bg-pink ">
+    <div class="container">
+       <div class="section-title text-center">
+          <span>Classes</span>
+          <h2 class="text-darkblue">Popular Classes</h2>
+      </div>
+     <div class="row">
+          <div class="col-lg-4 col-md-4">
+          <div class="single-class">
+            <div class="class-image">
+                    <a href="class-details.html">
+                    <img src="assets/img/class-1.jpg" alt="image" class="img-fluid">
+                    </a>
+            </div>
+            <div class="class-content">
+                 <div class="price">$880</div>
+                    <h3><a href="#">Color Matching</a></h3>
+                     <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     <ul class="class-list">
+                         <li><span>Age:</span>3-5 Year</li>
+                         <li><span>Time:</span>8-10 AM</li>
+                          <li><span>Seat:</span>25</li>
+                     </ul>
+                     <div class="class-btn">
+                             <a href="class-details.html" class="btn-top">Join Class</a>
+                     </div>
+                  </div>
+             </div>
+                    </div>
+                     <div class="col-lg-4 col-md-4">
+                        <div class="single-class mb-3">
+                            <div class="class-image">
+                                <a href="class-details.html">
+                                    <img src="assets/img/class-2.jpg" alt="image" class="img-fluid">
+                                </a>
+                            </div>
+
+                            <div class="class-content">
+                                <div class="price">$790</div>
+                                <h3>
+                                    <a href="#">Learning Disciplines</a>
+                                </h3>
+                                <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <ul class="class-list ">
+                                    <li>
+                                        <span>Age:</span>
+                                        3-5 Year
+                                    </li>
+                                    <li>
+                                        <span>Time:</span>
+                                        8-10 AM
+                                    </li>
+                                    <li>
+                                        <span>Seat:</span>
+                                        25
+                                    </li>
+                                </ul>
+
+                                <div class="class-btn">
+                                    <a href="class-details.html" class="btn-top">Join Class</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-4">
+                        <div class="single-class mb-3">
+                            <div class="class-image">
+                                <a href="class-details.html">
+                                    <img src="assets/img/class-3.jpg" alt="image" class="img-fluid">
+                                </a>
+                            </div>
+
+                            <div class="class-content">
+                                <div class="price">$590</div>
+                                <h3>
+                                    <a href="#">Drawing</a>
+                                </h3>
+                                <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <ul class="class-list">
+                                    <li>
+                                        <span>Age:</span>
+                                        3-5 Year
+                                    </li>
+                                    <li>
+                                        <span>Time:</span>
+                                        8-10 AM
+                                    </li>
+                                    <li>
+                                        <span>Seat:</span>
+                                        25
+                                    </li>
+                                </ul>
+
+                                <div class="class-btn">
+                                    <a href="class-details.html" class="btn-top">Join Class</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+     </div>
+     <div class="row">
+          <div class="col-lg-4 col-md-4">
+          <div class="single-class">
+            <div class="class-image">
+                    <a href="class-details.html">
+                    <img src="assets/img/class-1.jpg" alt="image" class="img-fluid">
+                    </a>
+            </div>
+            <div class="class-content">
+                 <div class="price">$880</div>
+                    <h3><a href="#">Color Matching</a></h3>
+                     <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     <ul class="class-list">
+                         <li><span>Age:</span>3-5 Year</li>
+                         <li><span>Time:</span>8-10 AM</li>
+                          <li><span>Seat:</span>25</li>
+                     </ul>
+                     <div class="class-btn">
+                             <a href="class-details.html" class="btn-top">Join Class</a>
+                     </div>
+                  </div>
+             </div>
+                    </div>
+                     <div class="col-lg-4 col-md-4">
+                        <div class="single-class mb-3">
+                            <div class="class-image">
+                                <a href="class-details.html">
+                                    <img src="assets/img/class-2.jpg" alt="image" class="img-fluid">
+                                </a>
+                            </div>
+
+                            <div class="class-content">
+                                <div class="price">$790</div>
+                                <h3>
+                                    <a href="#">Learning Disciplines</a>
+                                </h3>
+                                <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <ul class="class-list ">
+                                    <li>
+                                        <span>Age:</span>
+                                        3-5 Year
+                                    </li>
+                                    <li>
+                                        <span>Time:</span>
+                                        8-10 AM
+                                    </li>
+                                    <li>
+                                        <span>Seat:</span>
+                                        25
+                                    </li>
+                                </ul>
+
+                                <div class="class-btn">
+                                    <a href="class-details.html" class="btn-top">Join Class</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-lg-4 col-md-4">
+                        <div class="single-class mb-3">
+                            <div class="class-image">
+                                <a href="class-details.html">
+                                    <img src="assets/img/class-3.jpg" alt="image" class="img-fluid">
+                                </a>
+                            </div>
+
+                            <div class="class-content">
+                                <div class="price">$590</div>
+                                <h3>
+                                    <a href="#">Drawing</a>
+                                </h3>
+                                <p class="text-gray">Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <ul class="class-list">
+                                    <li>
+                                        <span>Age:</span>
+                                        3-5 Year
+                                    </li>
+                                    <li>
+                                        <span>Time:</span>
+                                        8-10 AM
+                                    </li>
+                                    <li>
+                                        <span>Seat:</span>
+                                        25
+                                    </li>
+                                </ul>
+
+                                <div class="class-btn">
+                                    <a href="class-details.html" class="btn-top">Join Class</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+     </div>
+            </div>
+             <div class="class-shape">
+                <div class="shape-1">
+                    <img src="assets/img/class-shape-1.png" alt="image" class="img-fluid">
+                </div>
+                <div class="shape-2">
+                    <img src="assets/img/class-shape-2.png" alt="image" class="img-fluid">
+                </div>
+            </div>
+   </section>
+
+
+     <section class="footer-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <div class="logo">
+                                <h2>
+                                    <a href="index.html">Ketan</a>
+                                </h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <ul class="social">
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-facebook-f" style="color: #fcfcfc;"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-twitter" style="color: #fcfcfc; "></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-pinterest-p" style="color: #ffffff;"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h3>Contact Us</h3>
+
+                            <ul class="footer-contact-info">
+                                <li>
+                                    <i class="fa-solid fa-phone" style="color: #ea512e;"></i>
+                                    <span>Phone</span>
+                                    <a href="tel:882569756">882-569-756</a>
+                                </li>
+                                <li>
+                                    <i class="fa-regular fa-envelope" style="color: #ea512e;"></i>
+                                    <span>Email</span>
+                                    <a class="fs-2" href="mailto:hello@ketan.com"><span>hello@ketan.com</span></a>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-location-dot" style="color: #ea512e;"></i>
+                                    <span>Address</span>
+                                    175 5th Ave Premium Area, New York, NY 10010, United States
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget pl-5">
+                            <h3>Activities</h3>
+    
+                            <ul class="quick-links">
+                                <li>
+                                    <a href="#">Maths Olympiad</a>
+                                </li>
+                                <li>
+                                    <a href="#">Art Competition</a>
+                                </li>
+                                <li>
+                                    <a href="#">English Novels</a>
+                                </li>
+                                <li>
+                                    <a href="#">Science Competition</a>
+                                </li>
+                                <li>
+                                    <a href="#">Teachers Day</a>
+                                </li>
+                                <li>
+                                    <a href="#">World Kids Day</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h3>Photo Gallery</h3>
+
+                            <ul class="photo-gallery-list">
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-1.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-2.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-3.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-4.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-5.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-6.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-1.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-2.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="box">
+                                        <img src="assets/img/footer-gallery-3.jpg" alt="image" class="img-fluid">
+                                        <a href="#" target="_blank" class="link-btn"></a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Footer Area -->
+
+        <!-- Start Copy Right Area -->
+        <div class="copyright-area">
+            <div class="container">
+                <div class="copyright-area-content">
+                    <p>
+                        Copyright Ketan. All Rights Reserved by
+                        <a href="https://cncwebworld.com/" target="_blank">
+                            cncwebworld
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+  <!-- fixed section start -->
+<div class="go-top">
+           <i class="fa-solid fa-circle-arrow-up"></i>
+    </div>  <!-- fixed section end -->
+  <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
