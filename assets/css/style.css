@@ -219,7 +219,7 @@ a {
 /* navbar end */
 /* hero section start */
 #hero {
-    background: url(../img/main-banner-bg.jpg);
+    background: url('assets/img/main-banner-bg.jpg');
     background-size: cover;
     padding: 60px 0px 100px 100px;
     position: relative;
@@ -420,7 +420,7 @@ a {
 /* whoWeAre section end */
 /* teacher section start */
 #teacher{
-    background-image: url('../img/teacher-bg.jpg');
+    background-image: url('assets/img/teacher-bg.jpg');
     background-size: cover;
     background-position: center;
     padding:90px 0px 70px 0px;
@@ -718,7 +718,7 @@ position: relative;
     text-align: center;
 }
 .event-area.bg-event {
-  background-image: url('../img/event-bg.jpg');
+  background-image: url('assets/img/event-bg.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -979,7 +979,7 @@ margin-bottom: 20px;
   padding-bottom: 70px;
 }
 .footer-area {
-  background-image: url('../img/footer-bg.jpg');
+  background-image: url('assets/img/footer-bg.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1448,7 +1448,7 @@ margin-bottom: 20px;
    background-color: #f5890d;
 }
 .time-facts-area{
-    background-image: url("assets/img/fun-facts-bg.jpg");
+    background-image: url('assets/img/fun-facts-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1595,7 +1595,7 @@ margin-bottom: 20px;
 }
 
 .quote-area.bg-item {
-  background-image: url("assets/img/quote-bg.jpg");
+  background-image: url('assets/img/quote-bg.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1922,16 +1922,16 @@ margin-bottom: 20px;
 
 /*banner bg image*/
 .about-banner.item-bg1 {
-  background-image: url("assets/img/page-banner-2.jpg");
+  background-image: url('assets/img/page-banner-2.jpg');
 }
 .about-banner.item-bg2 {
-  background-image: url("assets/img/page-banner-3.jpg");
+  background-image: url('assets/img/page-banner-3.jpg');
 }
 .about-banner.item-bg3 {
-  background-image: url("assets/img/page-banner-4.jpg");
+  background-image: url('assets/img/page-banner-4.jpg');
 }
 .about-banner.item-bg4 {
-  background-image: url("assets/img/page-banner-3.jpg");
+  background-image: url('assets/img/page-banner-3.jpg');
 }
 /*apply form*/
 .apply-form {
@@ -2047,7 +2047,7 @@ margin-bottom: 20px;
 }
 
 .enrollment-image {
-  background-image: url("assets/img/enrollment.jpg");
+  background-image: url('assets/img/enrollment.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2055,7 +2055,7 @@ margin-bottom: 20px;
   width: 100%;
 }
 .quote-image {
-    background-image: url("assets/img/quote.jpg");
+    background-image: url('assets/img/quote.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
