@@ -39,17 +39,49 @@ const swiper = new Swiper('.mySwiper', {
 
 document.getElementById('header').innerHTML = fetch('header.html').then(res => res.text());
 
-// Odometer JS
-	$('.odometer').appear(function(e) {
-		var odo = $(".odometer");
-		odo.each(function() {
-			var countNumber = $(this).attr("data-count");
-			$(this).html(countNumber);
-		});
-        setTimeout(() => {
-      odometerElement.innerHTML = $(this).attr("data-count"); ; // Replace with your desired number
-    }, 1000);
-	});
+// counter JS
+    $(function(){
+        let start = 0;
+        let end   = $(".num").html();
+        let speed = 100;
+
+        setInterval(function(){
+            if(start<end){
+                start++;
+            }
+            $(".num").html(start);
+
+        },speed);
+
+    });
+
+//partner slider
+$(document).ready(function () {
+  $(".customer-logos").slick({
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1500,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 4
+        }
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 3
+        }
+      }
+    ]
+  });
+});
+
     
 //Faq
 $(function() {

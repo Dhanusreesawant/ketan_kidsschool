@@ -7,13 +7,13 @@
   <title>Ketan - Childcare & Kids School HTML Template</title>
   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-default.min.css" />
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/responsive.css">  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 </head>
 <body>
  <nav class="navbar navbar-expand-lg bg-white sticky-top">
@@ -272,46 +272,43 @@
 
   </section>
   <!--odameter js-->
-<!--  <section class="time-facts-area pt-100 pb-70">
+ 
+ <section class="time-facts-area pt-100 pb-70">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact">
-                            <h3>
-                                <span class="odometer" data-count="1200">00</span>
-                            </h3>
+                            
+                                <div class="num">
+                                    <h3>1200</h3>
+                                </div>
+                            
                             <p>Students</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact bg-1">
-                            <h3>
-                                <span class="odometer" data-count="305">00</span>
-                            </h3>
+                           <div class="num"><h3>200</h3></div>
                             <p>Teachers</p>
                         </div>
                     </div>
                      <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact bg-2">
-                            <h3>
-                                <span class="odometer" data-count="48">00</span>
-                            </h3>
+                            <div class="num"><h3>40</h3></div>
                             <p>Classroom</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-fun-fact bg-3">
-                            <h3>
-                                <span class="odometer" data-count="50">00</span>
-                            </h3>
+                            <div class="num"><h3>35</h3></div>
                             <p>Bus</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>-->
+        </section>
         <!-- End Fun Facts Area -->
          <!--Online tutor-->
          <section class="online-tutor ptb-100">
@@ -659,31 +656,39 @@
         <!-- End Newsletter Area -->
 
         <!-- Start Partner Area -->
-     <!--  <div class="partner-area ptb-100">
+      <div class="partner-area ptb-100">
             <div class="container">
-                <div class="partner-slider owl-carousel owl-theme">
-                    <div class="partner-item">
-                        <img src="assets/img/partner-1.png" alt="image">
+                <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}' class="customer-logos slider">
+                    <div class="slide">
+                        <img src="assets/img/partner-1.png" alt="image" class="img-fluid">
                     </div>
 
-                    <div class="partner-item">
-                        <img src="assets/img/partner-2.png" alt="image">
+                    <div class="slide">
+                        <img src="assets/img/partner-2.png" alt="image" class="img-fluid">
+                    </div>
+                    
+                    <div class="slide">
+                        <img src="assets/img/partner-5.png" alt="image" class="img-fluid">
                     </div>
 
-                    <div class="partner-item">
-                        <img src="assets/img/partner-3.png" alt="image">
+                    <div class="slide">
+                        <img src="assets/img/partner-4.png" alt="image" class="img-fluid">
                     </div>
 
-                    <div class="partner-item">
-                        <img src="assets/img/partner-4.png" alt="image">
+                    <div class="slide">
+                        <img src="assets/img/partner-1.png" alt="image" class="img-fluid">
                     </div>
 
-                    <div class="partner-item">
-                        <img src="assets/img/partner-5.png" alt="image">
+                     <div class="slide">
+                        <img src="assets/img/partner-2.png" alt="image" class="img-fluid">
+                    </div>
+
+                     <div class="slide">
+                        <img src="assets/img/partner-1.png" alt="image" class="img-fluid">
                     </div>
                 </div>
             </div>
-        </div>--> 
+        </div>
    <section class="footer-area">
             <div class="container">
                 <div class="row">
@@ -869,9 +874,11 @@
   <!-- fixed section end -->
   <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   <script src="assets/js/owl.carousel.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>

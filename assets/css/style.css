@@ -1869,12 +1869,15 @@ margin-bottom: 20px;
 /*partner-area*/
 .partner-area {
   background-color: #fdf9f4;
+ 
+}
+.slider{
+   display:flex;
 }
 
-.partner-item img {
-  width: auto !important;
-  margin: auto;
-  max-width: 170px;
+
+.slide{
+  padding:10px;
 }
 
 /*gallery*/
